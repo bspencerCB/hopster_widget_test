@@ -1,6 +1,0 @@
-/index.html
-/node_modules/*
-
-package.json
-.DS_Store
-hopster-widget-staging-push.sh
