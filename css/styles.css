@@ -1,0 +1,160 @@
+a {
+  user-select:none;
+}
+
+.is-hidden {
+  display:none;
+}
+
+.text-center {
+  text-align:center;
+}
+
+.bg-img {
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-size:contain;
+}
+
+#hpcpn-cb-logo {
+  width:42px;
+  height:50px;
+  position:absolute;
+  right:8px;
+  background-image:url(../img/hopster.svg);
+  background-color:#154F63;
+}
+
+.navigate {
+  color:#b5b5b5;
+  position:absolute;
+  width:38px;
+  height:75px;
+  cursor:pointer;
+  font-size: 33px;
+  line-height:1.8em;
+  font-style:normal;
+}
+
+#hpcpn-cb-show-prev:before {
+  margin-left:-18px;
+  content:"\3008";
+}
+
+#hpcbn-cb-show-next:before {
+  margin-right:-18px;
+  content:"\3009";
+}
+
+#hpcpn-cb-coupon-slider-list {
+  margin-bottom:9px;
+  margin-top:14px;
+  padding-left:0;
+}
+
+#hpcpn-cb-coupon-slider-list > li {
+  vertical-align:top;
+  user-select:none;
+}
+
+i#hpcbn-cb-show-next:before {
+  float:right;
+}
+
+/* Media query elements*/
+.hpcpn-cb-img-container {
+  display:block;
+  height:60px;
+  margin-bottom:5px;
+}
+
+.hpcpn-cb-savings {
+  display:block;
+  color:#59C2BC;
+  font-size:14px;
+  text-decoration:none;
+}
+
+.hpcpn-cb-partner {
+  color:#899BA7;
+  font-size:11px;
+  margin-top:0;
+  margin-bottom:0;
+}
+
+#hpcpn-cb-btn-print {
+  width:100%;
+  position:absolute;
+  bottom:4%;
+  font-size:12px;
+}
+
+#hpcpn-cb-btn-print > a {
+  background-color:#59C2BC;
+  color:#fff;
+  padding:4px 8px 3px;
+  border-radius:2px;
+  text-decoration:none;
+  text-transform:uppercase;
+}
+
+@media screen and (min-width:265px) {
+  i.fa {
+    width:20px;
+  }
+
+  #hpcpn-cb-coupon-slider-list {
+    text-align:center;
+    padding-left:15px;
+    padding-right:15px;
+  }
+
+  #hpcpn-cb-coupon-slider-list > li.active {
+    display:inline-block;
+    width:27%;
+    padding-left:5px;
+    padding-right:5px;
+  }
+}
+
+@media screen and (min-height:250px) {
+  .hpcpn-cb-img-container {
+    height:100px;
+  }
+
+  #hpcpn-cb-btn-print {
+    font-size:16px;
+  }
+}
+
+@media screen and (min-height:260px) {
+  .hpcpn-cb-partner {
+    font-size:12px;
+  }
+
+  #hpcpn-cb-btn-print {
+    bottom:6%;
+  }
+}
+
+@media screen and (min-height:280px) {
+  #hpcpn-cb-coupon-slider-list {
+    margin-top:20px;
+  }
+
+  .hpcpn-cb-savings {
+    margin-bottom:6px;
+  }
+
+  #hpcpn-cb-btn-print {
+    bottom:10%;
+    font-size:17px;
+    line-height:1em;
+  }
+}
+
+@media screen and (min-height:300px) {
+  #hpcpn-cb-btn-print {
+    bottom:12%;
+  }
+}
